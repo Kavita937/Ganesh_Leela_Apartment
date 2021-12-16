@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Sign up</title>
+<link rel="stylesheet" href="joinstyle.css">
+<script src="main2.js">  
+</script>
+</head>
+<body>
+<div class="sign-up-form">
+<img src="logosociety1.jpg">
+<h1>Sign Up Now</h1>
+<form method="POST" action="form-handler" onsubmit="return checkForm(this);">
+<input type="text" name="inputfield"  class="input-box" placeholder="Name"><br>
+<input type="text" name="inputfield1"  class="input-box" placeholder="Username"><br>
+<input type="email" placeholder="Email" class="input-box" required maxlength="30"><br>
+<input type="password" id="psw" name="psw" placeholder="Password" class="input-box" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+<p><input type="checkbox" name="checkboxfield" >I agree to the terms of services</p>
+
+<input type="submit" class="signup_btn">
+</form>
+</div>
+</body>
+</html>

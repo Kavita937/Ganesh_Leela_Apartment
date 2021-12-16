@@ -1,0 +1,45 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	background-image:url(cabackground-blue.jpg);
+	background-size:cover;
+	background-position:center;
+}
+.form{
+	top:500px;
+	width:1366px;
+	height:350px;
+	font-family:verdana;
+	color:black;
+	font-size:17px
+}
+
+h2{
+	text-align:center;
+	color:yellow;
+	}
+
+#logo{
+  position: relative;
+  left:0;
+  top:3;
+  height:4;
+  width:5;
+}
+img{
+	width:50px;
+	float: left; 
+	margin-right: 10px; 
+}
+span.a {
+  display: block; 
+  width: 100%;
+  padding: 1px;
+  border: 1px solid blue;  
+  background-color: #BB8FCE; 
+  color: white;
+  float: right;
+}
+
+
